@@ -3,8 +3,6 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.12.35728.132
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PublishConsoleApp", "PublishConsoleApp\PublishConsoleApp.csproj", "{1CC356F9-9A9D-46E6-84EB-60EF5985CAC4}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "RedisPublisher", "RedisPublisher", "{460AABC5-C7F0-45D3-BE39-E88A01C04880}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "RedisSubScribes", "RedisSubScribes", "{A3493344-8746-4F6F-8DD6-7B36636874FE}"
@@ -19,10 +17,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{1CC356F9-9A9D-46E6-84EB-60EF5985CAC4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{1CC356F9-9A9D-46E6-84EB-60EF5985CAC4}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{1CC356F9-9A9D-46E6-84EB-60EF5985CAC4}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{1CC356F9-9A9D-46E6-84EB-60EF5985CAC4}.Release|Any CPU.Build.0 = Release|Any CPU
 		{CDBA57EC-397A-4C20-A66D-DB97D59924F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{CDBA57EC-397A-4C20-A66D-DB97D59924F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CDBA57EC-397A-4C20-A66D-DB97D59924F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -36,7 +30,6 @@ Global
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
-		{1CC356F9-9A9D-46E6-84EB-60EF5985CAC4} = {460AABC5-C7F0-45D3-BE39-E88A01C04880}
 		{CDBA57EC-397A-4C20-A66D-DB97D59924F6} = {A3493344-8746-4F6F-8DD6-7B36636874FE}
 		{E733DDC0-E4D7-43CD-9CEC-FEC12FBD35C1} = {A3493344-8746-4F6F-8DD6-7B36636874FE}
 	EndGlobalSection
