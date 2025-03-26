@@ -7,8 +7,8 @@ class Program
         {
             var connection = ConnectionMultiplexer.Connect("127.0.0.1:6379");
             var subscriber = connection.GetSubscriber();
-
-            subscriber.Subscribe("order", (channel, message) =>
+        Console.ForegroundColor = ConsoleColor.Yellow;
+        subscriber.Subscribe("order", (channel, message) =>
             {
                 Console.WriteLine($"{DateTime.UtcNow:o} => {message}");
             }, CommandFlags.None);
